@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.tyrion.glidedemo.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/simple_tv"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Simple"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/animtor_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Animator"/>
+
+    <TextView
+        android:id="@+id/cache_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Cache"/>
+
+    <TextView
+        android:id="@+id/model_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Model"/>
+
+    <TextView
+        android:id="@+id/placeholde_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Placeholder"/>
+
+    <TextView
+        android:id="@+id/request_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Request"/>
+
+    <TextView
+        android:id="@+id/resize_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Resize"/>
+
+    <TextView
+        android:id="@+id/target_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Target"/>
+
+    <TextView
+        android:id="@+id/thumbnail_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Thumbnail"/>
+
+    <TextView
+        android:id="@+id/transformation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Transformation"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLoading">
+        <attr name="outCircleColor" format="color"/>
+        <attr name="outCircleStrokeWidth" format="dimension"/>
+        <attr name="outCircleRadius" format="dimension"/>
+        <attr name="inCircleColor" format="color"/>
+        <attr name="divideWidth" format="dimension"/>
+        <attr name="position" format="integer"/>
+        <attr name="cirlceProgress" format="integer"/>
+    </declare-styleable>
+</resources>
